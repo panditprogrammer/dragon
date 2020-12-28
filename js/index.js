@@ -5,7 +5,7 @@ playText = document.getElementById("play").innerText;
 StartGame = document.getElementsByClassName("StartGame").innerText;
 waterfall =new Audio("sound/waterfall.wav");
 waterfall.loop=true;
-StartGame.loop=true;
+startGame.loop=true;
 if (playText == "Start Game") {
 
     startGame.play();
